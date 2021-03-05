@@ -3,16 +3,16 @@
 Given a skeleton of [`CycleSwap`](src/main/java/com/epam/rd/autotasks/CycleSwap.java) class, implement its static methods:
 
 * `void cycleSwap(int[] array)`\
-  Shift all the elements in the given array to the right by 1 position.\
-  The originally last element of the array becomes first.\
-  E.g. `1 3 2 7 4` becomes `4 1 3 2 7`.
+  Shift all the elements in the given array in the right direction by 1 position.\
+  In this case, the last array element becomes first.\
+  For example, `1 3 2 7 4` becomes `4 1 3 2 7`.
 
 * `void cycleSwap(int[] array, int shift)`\
-  Shift all the elements in the given array to the right int he cycle manner by `shift` positions.\
-  Shift value is guaranteed to be non-negative and no bigger than array length.\
-  E.g. `1 3 2 7 4` with shift of `3` becomes `2 7 4 1 3`.
+  Shift all the elements in the given array in the right direction in the cycle manner by `shift` positions.\
+  Shift value is guaranteed to be non-negative and not bigger than the array length.\
+  For example, `1 3 2 7 4` with a shift of `3` becomes `2 7 4 1 3`.
 
-For greater challenge try not using loops in your code (not obligatory).
+For a greater challenge, try not using loops in your code (not obligatory).
 
 ## Examples
 You may use [Main](src/test/java/com/epam/rd/autotasks/Main.java) class to try your code.
