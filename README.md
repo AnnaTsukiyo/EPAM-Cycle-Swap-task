@@ -20,6 +20,8 @@ and implement its static methods:
 
 For a greater challenge, try not using loops in your code (not mandatory).
 
+Note that input array may be empty.
+
 ### Examples
 
 ---
