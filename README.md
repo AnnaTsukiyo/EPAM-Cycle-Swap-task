@@ -9,12 +9,12 @@ Please, proceed to [`CycleSwap`](src/main/java/com/epam/rd/autotasks/CycleSwap.j
 and implement its static methods:
 
 * `void cycleSwap(int[] array)`\
-  Shifts all the elements in the given array in the right direction by 1 position.\
+  Shifts all the elements in the given array to the right by 1 position.\
   In this case, the last array element becomes first.\
   For example, `1 3 2 7 4` becomes `4 1 3 2 7`.
 
 * `void cycleSwap(int[] array, int shift)`\
-  Shift all the elements in the given array in the right direction in the cycle manner by `shift` positions.\
+  Shift all the elements in the given array to the right in the cycle manner by `shift` positions.\
   Shift value is guaranteed to be non-negative and not bigger than the array length.\
   For example, `1 3 2 7 4` with a shift of `3` becomes `2 7 4 1 3`.
 
