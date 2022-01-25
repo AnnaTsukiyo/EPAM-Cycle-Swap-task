@@ -62,6 +62,6 @@ class CycleSwapTest {
         CycleSwap.cycleSwap(array, 3);
         assertArrayEquals(new int[]{7, 8, 9, 1, 2, 3, 4, 5, 5, 6}, array);
         CycleSwap.cycleSwap(array, 5);
-        assertArrayEquals(new int[]{3, 4, 5, 5, 6, 7, 8, 9, 1, 2}, array);
+        assertArrayEquals(new int[]{5, 6, 7, 8, 9, 1, 2, 3, 4, 5}, array);
     }
 }
