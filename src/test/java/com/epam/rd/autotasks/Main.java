@@ -16,6 +16,11 @@ public class Main {
         }
         {
             int[] array = new int[]{1, 3, 2, 7, 4};
+            CycleSwap.cycleSwap(array, 3);
+            System.out.println(Arrays.toString(array));
+        }
+        {
+            int[] array = new int[]{1, 3, 2, 7, 4};
             CycleSwap.cycleSwap(array, 5);
             System.out.println(Arrays.toString(array));
         }
